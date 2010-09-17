@@ -1,0 +1,12 @@
+<html>
+<head><title><%= h(@message) %> </title></head>
+<body>
+<h1><%= h(@message) %></h1>
+<p>This is a greeting from app/views/hello/index.html.erb</p>
+
+<% @count.times do %>
+  <p><%=h @bonus %></p>
+<% end %>
+
+</body>
+</html>

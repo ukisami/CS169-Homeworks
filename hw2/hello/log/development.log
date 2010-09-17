@@ -1,0 +1,35 @@
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:04:28) [GET]
+Rendering hello/index
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:06:18) [GET]
+Rendering hello/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:09:58) [GET]
+Rendering hello/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:10:28) [GET]
+Rendering hello/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:14:29) [GET]
+Rendering hello/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:15:14) [GET]
+Rendering hello/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-09-16 21:15:15) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/hello]
