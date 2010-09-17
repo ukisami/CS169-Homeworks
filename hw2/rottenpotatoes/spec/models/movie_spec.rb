@@ -147,11 +147,38 @@ describe Movie do
 
  describe "when checking age-appropriateness" do
 
-   it "should be appropriate for a 15-year-old if rated G"
+   it "should be appropriate for a 15-year-old if rated G" do
+     @g_rating_attributes = @valid_attributes.dup
+     @g_rating_attributes[:rating] = 'G'
 
-   it "should be appropriate for a 30-year-old if rated G"
+     @movie = Movie.create!(@g_rating_attributes)
 
-   it "should not be appropriate for a 15-year-old if rated R"
+     @movie.appropriate_for_brithdate?(15.years.ago).should be_true
+
+   end
+
+
+   it "should be appropriate for a 30-year-old if rated G" do
+
+     @g_rating_attributes = @valid_attributes.dup
+     @g_rating_attributes[:rating] = 'G'
+
+     @movie = Movie.create!(@g_rating_attributes)
+
+     @movie.appropriate_for_brithdate?(30.years.ago).should be_true
+
+   end
+
+   it "should not be appropriate for a 15-year-old if rated R" do
+
+     @r_rating_attributes = @valid_attributes.dup
+     @r_rating_attributes[:rating] = 'R'
+
+     @movie = Movie.create!(@r_rating_attributes)
+
+     @movie.appropriate_for_brithdate?(15.years.ago).should_not be_true
+
+   end
 
  end
 
@@ -166,8 +193,16 @@ describe Movie do
 
    end
 
-   it "should exclude R rated movies if age is less than 17"
+   it "should exclude R rated movies if age is less than 17" do
 
+     @r_rating_attributes = @valid_attributes.dup
+     @r_rating_attributes[:rating] = 'R'
+
+     @movie = Movie.create!(@r_rating_attributes)
+
+     Movie.find_all_appropriate_for_birthdate(16.years.ago).should_not include(@movie)
+
+   end
 
  end
 
