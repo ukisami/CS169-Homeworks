@@ -1,0 +1,1573 @@
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:04:38) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 3ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:04:38) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:04:38) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:04:38) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:04:38) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:04:38) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:04:38) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:04:38) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:04:38) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:04:38) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:04:38) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:04:38) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:04:38) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:04:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:04:38) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:04:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:04:38', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:04:38', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:04:38', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:04:38', 'A movie about the new world.')[0m
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:05:36) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:05:36) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:05:36) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:05:36) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:05:36) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:05:36) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:05:36) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:05:36) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:05:36) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:05:36) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:05:36) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:05:36) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:05:36) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:05:36) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:05:36) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:05:36) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:05:36', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:05:36', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:05:36', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:05:36', 'A movie about the new world.')[0m
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:09:38) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:09:38) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:09:38) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:09:38) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:09:38) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:09:38) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:09:38) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:09:38) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:09:38) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:09:38) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:09:38) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:09:38) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:09:38) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:09:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:09:38) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:09:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:09:38', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:09:38', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:09:38', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:09:38', 'A movie about the new world.')[0m
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:17:01) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:17:01) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:17:01) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:17:01) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:17:01) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:17:01) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:17:01) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:17:01) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:17:01) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:17:01) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:17:01) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:17:01) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:17:01) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:17:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:17:01) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:17:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:17:01', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:17:01', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:17:01', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:17:01', 'A movie about the new world.')[0m
+  [4;35;1mMovie Create (0.1ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:17:01', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:17:01', 'A movie about the new world.')[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:17:01', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:17:01', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:18:02) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:18:02) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:02) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:02) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:02) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:02) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:02) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:02) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:02) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:02) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:02) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:02) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:18:02) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:18:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:18:02) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:18:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:18:02', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:18:02', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:18:02', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:18:02', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:18:02', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:18:02', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:18:40) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:18:40) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:40) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:40) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:40) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:40) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:40) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:18:40) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:40) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:40) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:40) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:18:40) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:18:40) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:18:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:18:40) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:18:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:18:40', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:18:40', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:18:40', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:18:40', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:18:40', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:18:40', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:27:32) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:27:32) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:27:32) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:27:32) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:27:32) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:27:32) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:27:32) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:27:32) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:27:32) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:27:32) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:27:32) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:27:32) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:27:32) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:27:32) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:27:32) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:27:32) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:27:32', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:27:32', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:27:32', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:27:32', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:27:32', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:27:32', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:30:17) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:30:17) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:30:17) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:30:17) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:30:17) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:30:17) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:30:17) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:30:17) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:30:17) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:30:17) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:30:17) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:30:17) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:30:17) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:30:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:30:17) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:30:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:30:17', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:30:17', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:30:17', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:30:17', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:30:17', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:30:17', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:35:35) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:35:35) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:35:35) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:35:35) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:35:35) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:35:35) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:35:35) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:35:35) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:35:35) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:35:35) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:35:35) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:35:35) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:35:35) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:35:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:35:35) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:35:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:35:35', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:35:35', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:35:35', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:35:35', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:35:35', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:35:35', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:36:16) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:36:16) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:36:16) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:36:16) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:36:16) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:36:16) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:36:16) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:36:16) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:36:16) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:36:16) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:36:16) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:36:16) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:36:16) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:36:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:36:16) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:36:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:36:16', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:36:16', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:36:16', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:36:16', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:36:16', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:36:16', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:37:14) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:37:14) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:37:14) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:37:14) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:37:14) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:37:14) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:37:14) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:37:14) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:37:14) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:37:14) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:37:14) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:37:14) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:37:14) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:37:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:37:14) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:37:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:37:14', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:37:14', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (3.4ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:37:14', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:37:14', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (7.9ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:37:14', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:37:14', 'A movie about the new world.')[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:39:46) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:39:46) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:39:46) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:39:46) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:39:46) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:39:46) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:39:46) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:39:46) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:39:46) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:39:46) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:39:46) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:39:46) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:39:46) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:39:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:39:46) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:39:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+Rendering movies/show.html.erb
+Rendering movies/index.html.erb
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:40:11) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/movies/37]
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-09-16 23:40:11) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:40:11) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:40:11) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:40:11) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:40:11) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:40:11) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-09-16 23:40:11) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies/1]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:40:11) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:40:11) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:40:11) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-09-16 23:40:11) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/movies?]
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-09-16 23:40:11) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-09-16 23:40:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-09-16 23:40:11) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-09-16 23:40:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+Rendering movies/edit.html.erb
+Rendering movies/new.html.erb
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:40:11', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:40:11', 'A movie about the new world.')[0m
+  [4;36;1mMovie Load (0.3ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."rating" IN ('G','PG')) [0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:40:11', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:40:11', 'A movie about the new world.')[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'A Whole New World') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;35;1mMovie Load (0.2ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Pocahontas') LIMIT 1[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES('G', '2010-09-17 06:40:11', 'Pocahontas', '1995-01-01 08:00:00', '2010-09-17 06:40:11', 'A movie about the new world.')[0m
