@@ -1,3 +1,6 @@
+require 'active_support' 
+require 'open-uri'
+
 class MoviesController < ApplicationController
   # GET /movies
   # GET /movies.xml
@@ -24,7 +27,7 @@ class MoviesController < ApplicationController
   # GET /movies/new
   # GET /movies/new.xml
   def new
-    @movie = Movie.new
+    @movie = Movie.search_by_id(params[:id])
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,7 +43,7 @@ class MoviesController < ApplicationController
   # POST /movies
   # POST /movies.xml
   def create
-    @movie = Movie.new(params[:movie])
+    @movie = Movie.search_by_id(params[:id])
 
     respond_to do |format|
       if @movie.save
@@ -80,4 +83,13 @@ class MoviesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  def search_movies
+    title = params[:title]
+    movies = Movie.search("title")
+    render :update do |page|
+       page.replace_html 'list_movies', :partial => 'list_movies', :locals => {:movies => movies} 
+    end
+  end
+
 end
