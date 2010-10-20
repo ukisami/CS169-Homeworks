@@ -17,7 +17,7 @@
   </p>
   <p>
     <%= f.label :released_on %><br />
-    <%= f.date_select :released_on %>
+    <%= f.datetime_select :released_on, :discard_hour => true, :discard_minute => true %>
   </p>
   <p>
     <%= f.submit 'Update' %>
