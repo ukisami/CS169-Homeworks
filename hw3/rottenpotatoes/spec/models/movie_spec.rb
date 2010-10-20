@@ -174,7 +174,7 @@ describe Movie do
      @r_rating_attributes = @valid_attributes.dup
      @r_rating_attributes[:rating] = 'R'
 
-     @movie = Movie.crfeate!(@r_rating_attributes)
+     @movie = Movie.create!(@r_rating_attributes)
 
      @movie.appropriate_for_brithdate?(15.years.ago).should_not be_true
 
@@ -208,10 +208,12 @@ describe Movie do
 
  describe "when searching for movie on TMDb" do
 
-   it "should return arrays of movies if the query is 'transformers'" do
+   it "should return arrays of movies with valid titles if the query is 'transformers'" do
      @movies = Movie.search "Transformers"
      @movies.each do |movie|
        movie.should be_an_instance_of Movie
+       movie.title.should_not == nil
+       movie.title.should_not == ''
      end
    end
 
@@ -227,29 +229,25 @@ describe Movie do
 
    it "should return a movie named 'Bruce Almighty' if the id is 310" do
      @movie = Movie.search_by_id 310
-     @movie.name.should == 'Bruce Almighty'
+     @movie.should_not == nil
+     @movie.title.should == 'Bruce Almighty'
    end
 
-   it "should return a movie named 'Bruce Almighty' if the id is string '310'" do
+   it "should return a movie named 'Bruce Almighty' if the id is the string '310'" do
      @movie = Movie.search_by_id '310'
-     @movie.name.should == 'Bruce Almighty'
+     @movie.should_not == nil
+     @movie.title.should == 'Bruce Almighty'
    end
 
-   it "should return nil if the id is 0" do
-     @movie = Movie.search_by_id 0
-     @movie.should == nil
-   end
-
-   it "should return nil if the id is 0" do
-     @movie = Movie.search_by_id 0
+   it "should return nil if the id is 12345678" do
+     @movie = Movie.search_by_id 12345678
      @movie.should == nil
    end
 
    it "should return nil if the input is not an int" do
-     @movie = Movie.search_by_id '0'
+     @movie = Movie.search_by_id 'Hello'
      @movie.should == nil
    end
-
  end
 
 end
