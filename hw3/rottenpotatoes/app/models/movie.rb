@@ -34,7 +34,7 @@ class Movie < ActiveRecord::Base
   end
 
   def self.search(query)
-    doc = self.getDocFromUrl(SEARCH_URL_BASE + query)
+    doc = self.getDocFromUrl(SEARCH_URL_BASE + query.gsub(/\s+/,'&'))
     movies = self.getNumMoviesFromDoc(5, doc)
   end
 
@@ -75,7 +75,9 @@ class Movie < ActiveRecord::Base
     movie.title = movieDOM.at('name').inner_html
     movie.rating = movieDOM.at('certification').inner_html
     movie.description = movieDOM.at('overview').inner_html
-    movie.released_on = Time.parse(movieDOM.at('released').inner_html)
+    if movieDOM.at('released').inner_html
+      movie.released_on = Time.parse(movieDOM.at('released').inner_html)
+    end
     return movie
   end
 

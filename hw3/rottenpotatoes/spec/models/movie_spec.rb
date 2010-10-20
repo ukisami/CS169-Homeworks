@@ -222,6 +222,16 @@ describe Movie do
      @movies.size.should == 5
    end
 
+   it "should return 1 movie if the the query is 'bruce almighty'" do
+     @movies = Movie.search "bruce almighty"
+     @movies.size.should == 1
+   end
+
+   it "should return 1 movie if the the query is 'king of the underworld'" do
+     @movies = Movie.search "king of the underworld"
+     @movies.size.should == 1
+   end
+
    it "should return 0 movies if the the query is 'xjfnak'" do
      @movies = Movie.search "xjfnak"
      @movies.size.should == 0
