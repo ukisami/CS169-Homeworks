@@ -1,0 +1,12 @@
+Site: http://quiet-warrior-95.heroku.com/
+Tracker: http://www.pivotaltracker.com/projects/130409
+
+Howard:
+- Defined features and set up pivatol tracker
+- Wrote views and controller methods
+- Wrote rspec tests fro controller
+
+Bowen:
+- Wrote rspce tests for model
+- Wrote cucumber step definitions
+- Extended movies model to support search
