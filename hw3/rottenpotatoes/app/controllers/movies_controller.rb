@@ -44,7 +44,7 @@ class MoviesController < ApplicationController
   # POST /movies.xml
   def create
     @movie = Movie.search_by_id(params[:id])
-
+    
     respond_to do |format|
       if @movie.save
         format.html { redirect_to(@movie, :notice => 'Movie was successfully created.') }

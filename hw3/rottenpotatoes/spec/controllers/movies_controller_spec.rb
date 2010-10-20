@@ -16,24 +16,24 @@ describe MoviesController do
 
   describe "GET show" do
     it "assigns the requested movie as @movie" do
-      Movie.stub(:find).with("37").and_return(mock_movie)
-      get :show, :id => "37"
+      Movie.stub(:find).with("1").and_return(mock_movie)
+      get :show, :id => "1"
       assigns[:movie].should equal(mock_movie)
     end
   end
 
   describe "GET new" do
-    it "assigns a new movie as @movie" do
-      Movie.stub(:new).and_return(mock_movie)
-      get :new
+    it "shows the info for @movie" do
+      Movie.stub(:search_by_id).with("4439").and_return(mock_movie)
+      get :new, :search_by_id => "4439"
       assigns[:movie].should equal(mock_movie)
     end
   end
 
   describe "GET edit" do
     it "assigns the requested movie as @movie" do
-      Movie.stub(:find).with("37").and_return(mock_movie)
-      get :edit, :id => "37"
+      Movie.stub(:find).with("1").and_return(mock_movie)
+      get :edit, :id => "1"
       assigns[:movie].should equal(mock_movie)
     end
   end
