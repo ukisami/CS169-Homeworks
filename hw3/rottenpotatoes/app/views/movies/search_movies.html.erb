@@ -1,0 +1,5 @@
+<h1>Search results</h1>
+<% @movies.each do |m| %>
+<%= link_to m.title, :controller => "movies", :action => "new", :id => m.id %><br />
+<% end %> 
+<%= link_to "none of these", not_found_path%>
