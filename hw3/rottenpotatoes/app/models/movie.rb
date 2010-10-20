@@ -6,7 +6,7 @@ class Movie < ActiveRecord::Base
   validates_presence_of :title, :description
   validates_uniqueness_of :title
   validates_length_of :description, :minimum => 10
-  validates_inclusion_of :rating, :in => ['G', 'PG', 'PG-13', 'R', 'NC-17']
+  validates_inclusion_of :rating, :in => ['G', 'PG', 'PG-13', 'R', 'NC-17', '']
 
   SEARCH_URL_BASE = 'http://api.themoviedb.org/2.1/Movie.search/en/xml/12204fc3fcae6869ad566b612d01c8d3/'
   GETINFO_URL_BASE = 'http://api.themoviedb.org/2.1/Movie.getInfo/en/xml/12204fc3fcae6869ad566b612d01c8d3/'
@@ -73,7 +73,7 @@ class Movie < ActiveRecord::Base
     movie = Movie.new
     movie.id = movieDOM.at('id').inner_html
     movie.title = movieDOM.at('name').inner_html
-    movie.rating = movieDOM.at('rating').inner_html
+    movie.rating = movieDOM.at('certification').inner_html
     movie.description = movieDOM.at('overview').inner_html
     movie.released_on = Time.parse(movieDOM.at('released').inner_html)
     return movie
