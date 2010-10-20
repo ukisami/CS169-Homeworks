@@ -71,6 +71,7 @@ class Movie < ActiveRecord::Base
 
   def self.getMovieFromMovieDOM(movieDOM)
     movie = Movie.new
+    movie.id = movieDOM.at('id').inner_html
     movie.title = movieDOM.at('name').inner_html
     movie.rating = movieDOM.at('rating').inner_html
     movie.description = movieDOM.at('overview').inner_html
