@@ -16,6 +16,19 @@ Given /^(?:|I )am on (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
+Given /^(?:|I )searched for "([^"]*)"$/ do |movie_name|
+  visit path_to('/search')
+  fill_in('movie[title]', :with => movie_name)
+  click_button('Search')
+end
+
+Given /^(?:|I ) am on the creation page for "([^"]*)"$/ do |movie_name|
+  visit path_to('/search')
+  fill_in('movie[title]', :with => movie_name)
+  click_button('Search')
+  click_lin(movie_name)
+end
+
 When /^(?:|I )go to (.+)$/ do |page_name|
   visit path_to(page_name)
 end

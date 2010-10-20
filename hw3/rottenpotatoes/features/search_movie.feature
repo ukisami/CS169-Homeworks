@@ -3,30 +3,42 @@ Feature: Search Movie
   Customers should be able to 
   search movie by title at all times
 
-  Scenario: Search a movie
-    Given there are more than 5 movies with the same title
-    And I have input a title
-    When I press the search button
-    Then I should see 5 movies listed
+  Scenario: Search for inception
+    Given I am on /search
+    When I fill in "movie[title]" with "inception"
+    And I press "Search"
+    Then I should be on /movies/search_movies
+    And I should see 5 movies
+    And I should see "Inception"
 
-  Scenario: Pick a movie
-    Given there are results returned from search
-    When I pick a movie
-    Then movie information should be shown
+  Scenario: Select the movie "Inception"
+    Given I searched for "inception"
+    When I follow "Inception"
+    Then I should be on /new
+    And I should have the following query string:
+      | id | 27205 |
+    And I should see "Title"
+    And I should see "Description"
+    And I should see "Rating"
+    And I should see "Released on"
 
-  Scenario: No interesting movies
-    Given there are results returned from search
+  Scenario: Select "None of These"
+    Given I searched for "inception"
     When I pick "None of these"
-    Then new results should be returned
+    Then I should be on /search
+    And I should see "Movies not found"
 
-  Scenario: Save a movie
-    Given I am prompted
-    When I click on "OK"
-    Then the current movie should be saved
+  Scenario: Search for movie that cannot be found
+    Given I am on /search
+    When I fill in "movie[title]" with "asdfg"
+    And I press "Search"
+    Given I searched for "asdf"
+    Then I should be on /search
+    And I should see "Movies not found"
 
-  Scenario: Movie not found
-    Given I search for a movie
-    When no results are returned 
-    Then I can still enter another title
-    And I see a message saying "Movie not found"
+  Scenario: Confirm movie creation
+    Given I am on the creation page for "Inception"
+    When I click create
+    Then I should be on /movies
+    And I should see "Inception"
 
