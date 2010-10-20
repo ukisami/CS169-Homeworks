@@ -17,6 +17,12 @@ module NavigationHelpers
     #   when /^(.*)'s profile page$/i
     #     user_profile_path(User.find_by_login($1))
 
+	when /\/.+/
+		page_name
+
+	when /the show page for "([^"]*)"/
+		movie_path(Movie.first(:conditions => {:title => $1}))
+
     else
       begin
         page_name =~ /the (.*) page/
@@ -27,6 +33,8 @@ module NavigationHelpers
           "Now, go and add a mapping in #{__FILE__}"
       end
     end
+
+	
   end
 end
 

@@ -8,13 +8,12 @@ Feature: Search Movie
     When I fill in "movie[title]" with "inception"
     And I press "Search"
     Then I should be on /movies/search_movies
-    And I should see 5 movies
     And I should see "Inception"
 
   Scenario: Select the movie "Inception"
     Given I searched for "inception"
     When I follow "Inception"
-    Then I should be on /new
+    Then I should be on /movies/new
     And I should have the following query string:
       | id | 27205 |
     And I should see "Title"
@@ -24,7 +23,7 @@ Feature: Search Movie
 
   Scenario: Select "None of These"
     Given I searched for "inception"
-    When I pick "None of these"
+    When I follow "None of these"
     Then I should be on /search
     And I should see "Movies not found"
 
@@ -37,8 +36,12 @@ Feature: Search Movie
     And I should see "Movies not found"
 
   Scenario: Confirm movie creation
-    Given I am on the creation page for "Inception"
-    When I click create
-    Then I should be on /movies
+    Given I got to the creation page for "Inception"
+    When I press "Create"
+    Then I should be on the show page for "Inception"
+    And I should see "Title"
+    And I should see "Description"
+    And I should see "Rating"
+    And I should see "Released on"
     And I should see "Inception"
 

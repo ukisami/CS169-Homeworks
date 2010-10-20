@@ -13,20 +13,20 @@ require File.expand_path(File.join(File.dirname(__FILE__), "..", "support", "pat
 # http://github.com/brynary/webrat
 
 Given /^(?:|I )am on (.+)$/ do |page_name|
-  visit path_to(page_name)
+  visit page_name
 end
 
 Given /^(?:|I )searched for "([^"]*)"$/ do |movie_name|
-  visit path_to('/search')
+  visit '/search'
   fill_in('movie[title]', :with => movie_name)
   click_button('Search')
 end
 
-Given /^(?:|I ) am on the creation page for "([^"]*)"$/ do |movie_name|
-  visit path_to('/search')
+Given /^(?:|I )got to the creation page for "([^"]*)"$/ do |movie_name|
+  visit '/search'
   fill_in('movie[title]', :with => movie_name)
   click_button('Search')
-  click_lin(movie_name)
+  click_link(movie_name)
 end
 
 When /^(?:|I )go to (.+)$/ do |page_name|
@@ -275,6 +275,8 @@ Then /^(?:|I )should be on (.+)$/ do |page_name|
     assert_equal path_to(page_name), current_path
   end
 end
+
+
 
 Then /^(?:|I )should have the following query string:$/ do |expected_pairs|
   query = URI.parse(current_url).query
