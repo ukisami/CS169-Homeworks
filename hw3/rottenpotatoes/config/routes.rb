@@ -7,7 +7,9 @@ ActionController::Routing::Routes.draw do |map|
   #   map.connect 'products/:id', :controller => 'catalog', :action => 'view'
   # Keep in mind you can assign values other than :controller and :action
 
+  #map.resources :movies, :collection=>{:search => :get, :not_found => :get}
   map.search '/search', :controller => 'movies', :action => 'search'
+  map.not_found '/not_found', :controller => 'movies', :action => 'not_found'
 
   # Sample of named route:
   #   map.purchase 'products/:id/purchase', :controller => 'catalog', :action => 'purchase'

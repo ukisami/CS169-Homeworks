@@ -1,6 +1,6 @@
 <h1>Searching movies</h1>
 
-<% form_for :movie, :url => {:controller => :movies, :action => :search_movies} do |f| %>
+<% form_remote_for :movie, :url => {:controller => :movies, :action => :search_movies} do |f| %>
   <%= f.error_messages %>
   <p>
     <%= f.label :title %><br />

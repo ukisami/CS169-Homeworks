@@ -85,11 +85,17 @@ class MoviesController < ApplicationController
   end
 
   def search_movies
-    title = params[:title]
-    movies = Movie.search("title")
-    render :update do |page|
-       page.replace_html 'list_movies', :partial => 'list_movies', :locals => {:movies => movies} 
-    end
+    	title = params[:movie][:title]
+    	@movies = Movie.search(title)
+	if @movies.empty?
+      flash[:notice] = "Movies not found"
+      redirect_to(search_path)
+    end 
+  end
+  
+  def not_found
+     flash[:notice] = "Movies not found"
+      redirect_to(search_path)
   end
 
 end

@@ -939,3 +939,1867 @@ NoMethodError (undefined method `search' for #<Class:0xb66a0c3c>):
 Rendered rescues/_trace (39.0ms)
 Rendered rescues/_request_and_response (1.5ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 20:17:16) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 236ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:17:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:17:20) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (1.2ms)
+Completed in 760ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:19:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:19:11) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.7ms)
+Completed in 631ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:19:34) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.7ms)
+Completed in 633ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:20:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:20:15) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.8ms)
+Completed in 654ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:20:28) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.7ms)
+Completed in 630ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:20:31) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.7ms)
+Completed in 584ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:20:35) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:20:38) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.7ms)
+Completed in 641ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:24:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:24:43) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"kkk"}}
+Rendered movies/_list_movies (0.7ms)
+Completed in 631ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 20:42:59) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 115ms (View: 24, DB: 1) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:43:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:43:03) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+
+TypeError (can't convert nil into String):
+  app/models/movie.rb:37:in `+'
+  app/models/movie.rb:37:in `search'
+  app/controllers/movies_controller.rb:89:in `search_movies'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (95.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:44:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:44:14) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 745ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:47:13) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 642ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:47:39) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+ERROR: compiling _run_erb_app47views47movies47new46html46erb RAISED compile error
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:7: syntax error, unexpected '<', expecting kEND
+  <p>
+   ^
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:32: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47movies47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New movie</h1>\n\n"
+
+;  form_for(@movie) do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n  "
+;  hidden_field_tag 'id', 'movie.id' 
+
+  <p>
+    <%= f.label :title ; @output_buffer.concat "<br />\n    "
+; @output_buffer.concat((h movie.title ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :description ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat((h movie.description ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :rating ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat((h movie.rating).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :released_on ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat((h movie.released_on ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.submit 'Create' ).to_s); @output_buffer.concat "\n  </p>\n"
+
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( link_to 'Back', '/search' ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:32:in `compile!'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:135:in `send'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:135
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:179:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:179:in `respond'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:173:in `each'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:173:in `respond'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/controllers/movies_controller.rb:32:in `new'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+/usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+/usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+/usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:7: syntax error, unexpected '<', expecting kEND
+  <p>
+   ^
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/new.html.erb:32: syntax error, unexpected $end, expecting kEND) on line #7 of app/views/movies/new.html.erb:
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', 'movie.id' 
+6: 
+7:   <p>
+8:     <%= f.label :title %><br />
+9:     <%=h movie.title %>
+10:   </p>
+
+    app/views/movies/new.html.erb:32:in `compile!'
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (109.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:47:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/new.html.erb:
+1: <h1>New movie</h1>
+2: 
+3: <% form_for(@movie) do |f| %>
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', 'movie.id' %>
+6: 
+
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (53.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:48:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/new.html.erb:
+1: <h1>New movie</h1>
+2: 
+3: <% form_for(@movie) do |f| %>
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', 'movie.id' %>
+6: 
+
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (54.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 20:50:03) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (26.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 20:50:11) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 20:50:31) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 20:50:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:50:47) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 626ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:52:33) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/movies/search_movies.html.erb:
+1: <h1>Search results</h1>
+2: <% @movies.each do |m| %>
+3: <%= link_to m.title, new_movie_path + '?id='+m.id %><br />
+4: <% end %> 
+5: <%= link_to "none of these" %>
+
+    app/views/movies/search_movies.html.erb:3:in `+'
+    app/views/movies/search_movies.html.erb:3
+    app/views/movies/search_movies.html.erb:2:in `each'
+    app/views/movies/search_movies.html.erb:2
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (50.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:54:47) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 1114ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:54:50) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/new.html.erb:
+1: <h1>New movie</h1>
+2: 
+3: <% form_for(@movie) do |f| %>
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', 'movie.id' %>
+6: 
+
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:54:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/new.html.erb:
+1: <h1>New movie</h1>
+2: 
+3: <% form_for(@movie) do |f| %>
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', 'movie.id' %>
+6: 
+
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:56:02) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 627ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:56:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/new.html.erb:
+1: <h1>New movie</h1>
+2: 
+3: <% form_for(@movie) do |f| %>
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', @movie.id %>
+6: 
+
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (117.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:59:19) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 699ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 20:59:23) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/movies/new.html.erb:
+1: <h1>New movie</h1>
+2: 
+3: <% form_for(@movie) do |f| %>
+4:   <%= f.error_messages %>
+5:   <% hidden_field_tag 'id', @movie.id %>
+6: 
+
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (107.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 20:59:56) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+
+ActionView::TemplateError (can't convert nil into String) on line #3 of app/views/movies/search_movies.html.erb:
+1: <h1>Search results</h1>
+2: <% @movies.each do |m| %>
+3: <%= link_to m.title, '/movies/new?id='+m.id %><br />
+4: <% end %> 
+5: <%= link_to "none of these" %>
+
+    app/views/movies/search_movies.html.erb:3:in `+'
+    app/views/movies/search_movies.html.erb:3
+    app/views/movies/search_movies.html.erb:2:in `each'
+    app/views/movies/search_movies.html.erb:2
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (47.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:00:06) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 698ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:03:19) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 746ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:04:19) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 3635ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:04:27) [GET]
+  Parameters: {"id"=>"10917"}
+Rendering template within layouts/movies
+Rendering movies/new
+
+ActionView::TemplateError (undefined local variable or method `movie' for #<ActionView::Base:0xb653cc38>) on line #9 of app/views/movies/new.html.erb:
+6: 
+7:   <p>
+8:     <%= f.label :title %><br />
+9:     <%=h movie.title %>
+10:   </p>
+11:   <p>
+12:     <%= f.label :description %><br />
+
+    app/views/movies/new.html.erb:9
+    app/views/movies/new.html.erb:3
+    app/controllers/movies_controller.rb:32:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (114.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:04:55) [GET]
+  Parameters: {"id"=>"10917"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 335ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=10917]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:04:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/movies_controller.rb:49
+  app/controllers/movies_controller.rb:48:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:06:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:06:22) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/movies_controller.rb:49
+  app/controllers/movies_controller.rb:48:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (102.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:08:29) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.6ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 190ms (View: 82, DB: 1) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:08:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:08:33) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"ddfd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 752ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:08:36) [GET]
+  Parameters: {"id"=>"2734"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 504ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=2734]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:08:39) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/movies_controller.rb:50
+  app/controllers/movies_controller.rb:49:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (127.9ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:09:51) [GET]
+  Parameters: {"id"=>"2734"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 441ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=2734]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:09:55) [GET]
+  Parameters: {"id"=>"2734"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 439ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=2734]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:09:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/movies_controller.rb:50
+  app/controllers/movies_controller.rb:49:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (67.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:10:32) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/movies_controller.rb:50
+  app/controllers/movies_controller.rb:49:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (68.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:10:49) [GET]
+  Parameters: {"id"=>"2734"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 444ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=2734]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:10:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "id"=>"value2734"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+  app/controllers/movies_controller.rb:50
+  app/controllers/movies_controller.rb:49:in `create'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:11:21) [GET]
+  Parameters: {"id"=>"2734"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 502ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=2734]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:11:23) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "id"=>"2734"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'David') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8877ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/movies]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:15:25) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 26ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:15:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:15:34) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"whathahhtht"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 236ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:15:43) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"whathahhtht"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 5228ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:16:46) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:16:47) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"whathahhtht"}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 231ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:16:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 69ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:18:33) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.5ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 27ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:18:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:18:43) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"ddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 766ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:18:47) [GET]
+  Parameters: {"id"=>"23805"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 334ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=23805]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:18:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "id"=>"23805"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'The Toy') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 7057ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:20:23) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:20:25) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"ddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 662ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:20:28) [GET]
+  Parameters: {"id"=>"10917"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 336ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=10917]
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-19 21:20:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "id"=>"10917"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Too Young to Die?') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 350ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/movies]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:20:39) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"whathahhtht"}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 216ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:20:40) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:22:07) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:22:08) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>""}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 220ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:22:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:22:12) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+ERROR: compiling _run_erb_app47views47movies47search_movies46html46erb RAISED compile error
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/search_movies.html.erb:5: odd number list for Hash
+...:notice] = "Movies not found"}) ).to_s); @output_buffer.conc...
+                              ^
+Function body:           def _run_erb_app47views47movies47search_movies46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Search results</h1>\n"
+;  @movies.each do |m| ; @output_buffer.concat "\n"
+; @output_buffer.concat(( link_to m.title, :controller => "movies", :action => "new", :id => m.id ).to_s); @output_buffer.concat "<br />\n"
+;  end ; @output_buffer.concat " \n"
+; @output_buffer.concat(( link_to "none of these", search_path({flash[:notice] = "Movies not found"}) ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/search_movies.html.erb:9:in `compile!'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/howard/.gem/ruby/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/home/howard/.gem/ruby/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/home/howard/.gem/ruby/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/rails/rack/debugger.rb:19:in `call'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+/usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+/usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+/usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+/usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+/home/howard/.gem/ruby/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/home/howard/.gem/ruby/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/howard/workspace/cs169/assignments/bowen/CS169-Homeworks/hw3/rottenpotatoes/app/views/movies/search_movies.html.erb:5: odd number list for Hash
+...:notice] = "Movies not found"}) ).to_s); @output_buffer.conc...
+                              ^) on line #5 of app/views/movies/search_movies.html.erb:
+2: <% @movies.each do |m| %>
+3: <%= link_to m.title, :controller => "movies", :action => "new", :id => m.id %><br />
+4: <% end %> 
+5: <%= link_to "none of these", search_path({flash[:notice] = "Movies not found"}) %>
+
+    app/views/movies/search_movies.html.erb:9:in `compile!'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (77.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:22:27) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+
+ActionView::TemplateError (undefined method `to_sym' for nil:NilClass) on line #5 of app/views/movies/search_movies.html.erb:
+2: <% @movies.each do |m| %>
+3: <%= link_to m.title, :controller => "movies", :action => "new", :id => m.id %><br />
+4: <% end %> 
+5: <%= link_to "none of these", search_path({flash[:notice] => "Movies not found"}) %>
+
+    (eval):21:in `search_path'
+    app/views/movies/search_movies.html.erb:5
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (90.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:22:47) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 654ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:22:50) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:22:55) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"whathahhtht"}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 286ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:22:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:27:07) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:27:09) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>""}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 572ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:27:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:27:15) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"isfidas"}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 235ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:27:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:27:17) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 732ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:27:19) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (66.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:29:09) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 25ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:29:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:29:12) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>""}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 219ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:29:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:29:14) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"sdfasd"}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 226ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:29:15) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:29:18) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 709ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:29:20) [GET]
+  Parameters: {"id"=>"42845"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 369ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=42845]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:29:23) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (66.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:30:25) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (128.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:30:43) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 6096ms (View: 20, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:30:52) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (67.4ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:32:11) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (65.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:32:17) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (66.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:36:08) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 4699ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:36:15) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (123.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:38:28) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:38:30) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:38:32) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"afasdfasdf"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 684ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:38:38) [GET]
+  Parameters: {"not_found"=>"1", "id"=>"search_movies"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search_movies):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (64.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:39:10) [GET]
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 81ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:39:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:39:13) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dasfsd"}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 237ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:39:13) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:39:16) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"ddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 661ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:39:18) [GET]
+  Parameters: {"id"=>"not_found"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=not_found):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (117.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:39:38) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 117ms (View: 24, DB: 1) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:43:55) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+
+ActionView::TemplateError (undefined local variable or method `search_path' for #<ActionView::Base:0xb5cc8228>) on line #26 of app/views/movies/index.html.erb:
+23: 
+24: <br />
+25: 
+26: <%= link_to 'Search movie', search_path %>
+
+    app/views/movies/index.html.erb:26
+    app/controllers/movies_controller.rb:10:in `index'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (108.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:44:10) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+
+ActionView::TemplateError (undefined local variable or method `movies_search_path' for #<ActionView::Base:0xb5e44cb4>) on line #26 of app/views/movies/index.html.erb:
+23: 
+24: <br />
+25: 
+26: <%= link_to 'Search movie', movies_search_path %>
+
+    app/views/movies/index.html.erb:26
+    app/controllers/movies_controller.rb:10:in `index'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (49.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:44:39) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 26ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:44:49) [GET]
+  Parameters: {"method"=>"index"}
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 76ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:44:51) [GET]
+  Parameters: {"id"=>"search"}
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (37.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:47:24) [GET]
+  Parameters: {"id"=>"search"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (38.5ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:47:28) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-19 21:47:30) [GET]
+  Parameters: {"id"=>"search"}
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=search):
+  app/controllers/movies_controller.rb:19:in `show'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing MoviesController#index (for 127.0.0.1 at 2010-10-19 21:48:17) [GET]
+  Parameters: {"method"=>"index"}
+  [4;35;1mMovie Load (0.4ms)[0m   [0mSELECT * FROM "movies" [0m
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 24ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:48:18) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:48:22) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"dddd"}}
+Rendering template within layouts/movies
+Rendering movies/search_movies
+Completed in 642ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-19 21:48:24) [GET]
+  Parameters: {"id"=>"10917"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 422ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/movies/new?id=10917]
+
+
+Processing MoviesController#not_found (for 127.0.0.1 at 2010-10-19 21:48:27) [GET]
+Redirected to http://0.0.0.0:3000/search
+Completed in 3ms (DB: 0) | 302 Found [http://0.0.0.0/not_found]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:48:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:48:32) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>""}}
+Redirected to http://0.0.0.0:3000/search
+Completed in 214ms (DB: 0) | 302 Found [http://0.0.0.0/movies/search_movies]
+
+
+Processing MoviesController#search (for 127.0.0.1 at 2010-10-19 21:48:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/search
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/search]
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:48:35) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"sfdas"}}
+
+ArgumentError (time out of range):
+  /usr/lib/ruby/1.8/time.rb:184:in `local'
+  /usr/lib/ruby/1.8/time.rb:184:in `make_time'
+  /usr/lib/ruby/1.8/time.rb:243:in `parse'
+  app/models/movie.rb:78:in `getMovieFromMovieDOM'
+  app/models/movie.rb:66:in `getNumMoviesFromDoc'
+  app/models/movie.rb:61:in `each'
+  app/models/movie.rb:61:in `getNumMoviesFromDoc'
+  app/models/movie.rb:38:in `search'
+  app/controllers/movies_controller.rb:89:in `search_movies'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (11.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:48:44) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"sfdas"}}
+
+ArgumentError (time out of range):
+  /usr/lib/ruby/1.8/time.rb:184:in `local'
+  /usr/lib/ruby/1.8/time.rb:184:in `make_time'
+  /usr/lib/ruby/1.8/time.rb:243:in `parse'
+  app/models/movie.rb:78:in `getMovieFromMovieDOM'
+  app/models/movie.rb:66:in `getNumMoviesFromDoc'
+  app/models/movie.rb:61:in `each'
+  app/models/movie.rb:61:in `getNumMoviesFromDoc'
+  app/models/movie.rb:38:in `search'
+  app/controllers/movies_controller.rb:89:in `search_movies'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MoviesController#search_movies (for 127.0.0.1 at 2010-10-19 21:48:55) [POST]
+  Parameters: {"commit"=>"Search", "authenticity_token"=>"wqli9DLSCp6sYJws0WFjqLVcJPmnnptXcByjAaha+WI=", "movie"=>{"title"=>"sf"}}
+
+ArgumentError (time out of range):
+  /usr/lib/ruby/1.8/time.rb:184:in `local'
+  /usr/lib/ruby/1.8/time.rb:184:in `make_time'
+  /usr/lib/ruby/1.8/time.rb:243:in `parse'
+  app/models/movie.rb:78:in `getMovieFromMovieDOM'
+  app/models/movie.rb:66:in `getNumMoviesFromDoc'
+  app/models/movie.rb:61:in `each'
+  app/models/movie.rb:61:in `getNumMoviesFromDoc'
+  app/models/movie.rb:38:in `search'
+  app/controllers/movies_controller.rb:89:in `search_movies'
+  /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+  /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+  /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+
+Rendered rescues/_trace (100.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)

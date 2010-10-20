@@ -2,23 +2,23 @@
 
 <% form_for(@movie) do |f| %>
   <%= f.error_messages %>
-  <% hidden_field_tag 'id', 'movie.id' 
+  <%= hidden_field_tag 'id', @movie.id %>
 
   <p>
     <%= f.label :title %><br />
-    <%=h movie.title %>
+    <%=h @movie.title %>
   </p>
   <p>
     <%= f.label :description %><br />
-    <%=h movie.description %>
+    <%=h @movie.description %>
   </p>
   <p>
     <%= f.label :rating %><br />
-    <%=h movie.rating%>
+    <%=h @movie.rating%>
   </p>
   <p>
     <%= f.label :released_on %><br />
-    <%=h movie.released_on %>
+    <%=h @movie.released_on %>
   </p>
   <p>
     <%= f.submit 'Create' %>
