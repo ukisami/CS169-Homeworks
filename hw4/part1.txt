@@ -1,0 +1,5 @@
+The message is "The Magic Words are Squeamish Ossifrage".
+
+It was the solution to a ciphertext challenge posed by the inventors of the RSA. It was solved in
+1994 using contributed CPU time from about 1600 computers in over 6 months. The project that solved
+this cipher was one of the first distributed computing projects.

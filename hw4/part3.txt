@@ -1,0 +1,47 @@
+3.1
+
+    1) The max request rate due to caching for 32 processes has increased to 1015.
+
+    2) Cached requests can be served at roughly 25x the rate of uncached requests. When running
+    on 32 processes without caches, the httperf registered 41.5 requests per second. When running
+    with caches, the request rate increased to 1015. When a page is a cached, Apache is able to
+    intercept the request by serving the cached page directly, without invoking any rail process
+    calls. This speeds up request rate significantly because Apache can serve requests at much
+    higher rates. Also since the main page was not changed during the benchmark, only the first
+    request triggered a process call to rails. All subsequent requests were served by Apache using
+    cached page.
+
+    3) Using caches may potentially cause cached pages to be out-of-date with the rails models,
+    the solution to this problem is to expire the cache upon sate change in the models.
+
+3.2
+
+    1) Without proper cache expiration, a given event's "show" page is cached on the first view
+    and remains the same even when an update is made to the given event model.
+
+    2) We extended EventsController to call the EventSweeper on :create, :update, and :destroy
+    actions. The EventSweeper is defined as follows:
+
+
+    def EventSweeper<ActiveController::Caching::Sweeper
+      observe Event
+
+      def after_save(event)
+        clear_events_cache(event)
+      end
+
+      def after_destroy(event)
+        clear_events_cache(event)
+      end
+
+      def clear_events_cache(event)
+        expire_page :controller => :events, :action => :index
+        expire_page :controller => :events, :action => :show, :id => event.id
+      end
+    end
+
+3.3
+
+    1) If rails caches the page that is to be viewed, then the next time any client trying to 
+    access the same page will be fed with the cached static page, bypassing the login before_filter
+    completely. Therefore subsequent request to the sensitive page will no longer require login.

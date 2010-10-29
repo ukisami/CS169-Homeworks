@@ -1,0 +1,4 @@
+The optimal number of processes is 32. Since this is a server instance dedicated
+to the application server. We should try to pump as much requests rate out of it 
+as possible. Out of the different number of processes tested, 32 processes offers
+the best Request per Second and is the optimal number of processes.
